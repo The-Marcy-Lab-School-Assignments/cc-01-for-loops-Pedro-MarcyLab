@@ -6,12 +6,15 @@ function countToFifty(){
 }
 //2
 function countFromOne(){
-  
+  for(let i = 1; i <= num; i++){
+    const num = 10
+      console.log(i)
+  }
 }
 //3
 function threeOrFiveInFifty(){
   for(i = 1; i <= 50; i++){
-    if(i / 3 === 0 || i / 5 === 0){
+    if((i % 3 === 0) || (i % 5 === 0)){
       console.log(i)
     }
   }  
@@ -22,6 +25,7 @@ function threeAndFive(){
 }
 
 
-//countToFifty()
+countToFifty()
 //countFromOne()
 threeOrFiveInFifty()
+//threeAndFive()
